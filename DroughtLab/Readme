@@ -14,3 +14,4 @@ We will use two satellite-based soil moisture products:
 
 H113 = surface soil moisture data record, based ONLY on satellite soil moisture data from ASCAT
 H27 = root-zone soil moisture obtained from the assimilation of ASCAT soil moisture into ECMWF IFS (integrated Forecasting System)
+
