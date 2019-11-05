@@ -1,2 +1,16 @@
-aaa
- a
+Soil Moisture Event Week
+Drought monitoring through H SAF SM products
+In this exercise we will:
+
+extract soil moisture and ERA5 rainfall time-series for the study basin (Tiber river basins)
+resample the time-series over the same grid and aggregate the values at monthly time step
+Performing some analyses, listed in the following, using soil moisture/rainfall time series and droughts indexes:
+Computation of “seasonal” soil moisture
+Computation of soil moisture anomalies averaged on the basin
+Computation of Standardized Soil Moisture (SSI) drought index: time series averaged on the basin
+Comparison of soil moisture (SSI) and precipitation (SPI) based drought indices
+Drought in space: maps comparison
+We will use two satellite-based soil moisture products:
+
+H113 = surface soil moisture data record, based ONLY on satellite soil moisture data from ASCAT
+H27 = root-zone soil moisture obtained from the assimilation of ASCAT soil moisture into ECMWF IFS (integrated Forecasting System)
