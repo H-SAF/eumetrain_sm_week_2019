@@ -1,0 +1,28 @@
+Soil Moisture Event Week
+Flood prediction through H SAF SM products
+
+1. Impact of initial soil moisture conditions on flood simulation
+
+In this exercise we will
+
+run the MISDc rainfall-runoff model over the Tiber River Basin with ERA5 rainfall product
+extract the modelled soil moisture data to be compared with satellite-based products (H113 and H27)
+perform linear rescaling and filtering to satellite-based products to make them usable for rainfall-runoff simulation
+perform flood simulation with different soil moisture initial conditions
+All the data are stored in the text file "TEVERE_DATA_NEW.txt".
+
+We will use two satellite-based soil moisture products:
+
+H113 = surface soil moisture data record, based ONLY on satellite soil moisture data from ASCAT
+H27 = root-zone soil moisture obtained from the assimilation of ASCAT soil moisture into ECMWF IFS (Integrated Forecasting System)
+
+2. Satellite Soil Moisture for Improving Rainfall through SM2RAIN
+
+In this exercise we will run the MISDc rainfall-runoff model over the Tiber River Basin with different rainfall products as input:
+
+ERA5 reanalysis rainfall
+SM2RAIN-ASCAT satellite rainfall obtained from H SAF ASCAT soil moisture
+merged rainfall product P-MERG= 0.85 x ERA5+0.15 x SM2RAIN-ASCAT
+We will compare the performance of each product to assess the potential benefit of correcting rainfall with satellite soil moisture through SM2RAIN.
+
+All the data are stored in the text file "TEVERE_DATA_NEW.txt".
